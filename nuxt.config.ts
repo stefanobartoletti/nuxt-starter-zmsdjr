@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   modules: ['@storyblok/nuxt', '@nuxtseo/module'],
 
   storyblok: {
-    accessToken: 'yo1Uw4GnJ0rVOFOSlQRXSgtt',
+    accessToken: process.env.SB_API_KEY,
   },
 
   site: {
